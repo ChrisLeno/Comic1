@@ -1,0 +1,20 @@
+{
+  "BOOK_TITLE": "",
+  "BOOK_SUBTITLE": "",
+  "AUTHOR_NAME": "",
+  "ISBN_NUMBER": "",
+  "BOOK_EDITION": "",
+  "PUBLISHER_NAME": "",
+  "PUBLICATION_DATE": "",
+  "LANGUAGE": "",
+  "BOOK_DESCRIPTION": "",
+  "KEYWORDS": [],
+  "COVER_IMAGE": "",
+  "OUTPUT_FORMATS": [
+    "pdf",
+    "epub",
+    "mobi",
+    "docx"
+  ],
+  "KDP_ENABLED": false
+}

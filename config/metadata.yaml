@@ -1,0 +1,13 @@
+title: "comic1"
+subtitle: ""
+author: "Christos Lenoudias"
+isbn: ""
+edition: "1"
+publisher: ""
+date: "2025"
+language: "en"
+description: "My first comic book"
+keywords: []
+cover_image: "assets/covers/cover.png"
+output_formats: ["pdf", "epub", "docx"]
+kdp_enabled: false
