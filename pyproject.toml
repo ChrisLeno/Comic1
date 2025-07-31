@@ -1,0 +1,79 @@
+[tool.poetry]
+name = "write-book-template"  # TODO: replace with your actual project name
+version = "0.1.0"
+description = "Template project for writing and publishing books using markdown and automation tools"  # TODO: customize
+authors = ["Asterios Raptis <asteri.raptis@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "scripts" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+pandas = "^2.2.3"
+python-dotenv = "^1.1.0"
+requests = "^2.31.0"
+pillow = "^11.2.1"
+pyyaml = "^6.0.2"
+toml = "^0.10.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-mock = "^3.10.0"
+
+[tool.poetry.scripts]
+init-book-project = "scripts.init_book_project:main"
+print-version-build = "scripts.print_version_build:main"
+update-metadata-values = "scripts.update_metadata_values:main"
+full-export = "scripts.full_export_book:main"
+replace-emojis = "scripts.replace_emojis:main"
+translate-book-deepl = "scripts.translate_book_deepl:main"
+translate-book-lmstudio = "scripts.translate_book_lmstudio:main"
+create-chapters = "scripts.create_chapters:main"
+generate-images = "scripts.generate_images:main"
+inject-images = "scripts.inject_images:main"
+shortcuts = "scripts.shortcuts:main"
+
+# 🏁 Export Shortcuts
+export-epub = "scripts.shortcuts_export:export_epub"
+export-epub2 = "scripts.shortcuts_export:export_epub2"
+export-e = "scripts.shortcuts_export:export_epub"
+export-e2 = "scripts.shortcuts_export:export_epub2"
+export-epub-with-cover = "scripts.shortcuts_export:export_epub_with_cover"
+export-epub2-with-cover = "scripts.shortcuts_export:export_epub2_with_cover"
+export-ewc = "scripts.shortcuts_export:export_epub_with_cover"
+export-e2wc = "scripts.shortcuts_export:export_epub2_with_cover"
+export-markdown = "scripts.shortcuts_export:export_markdown"
+export-md = "scripts.shortcuts_export:export_markdown"
+export-pdf = "scripts.shortcuts_export:export_pdf"
+export-p = "scripts.shortcuts_export:export_pdf"
+export-docx = "scripts.shortcuts_export:export_docx"
+export-d = "scripts.shortcuts_export:export_docx"
+export-print-version-epub = "scripts.shortcuts_export:export_print_version_epub"
+export-pve = "scripts.shortcuts_export:export_print_version_epub"
+export-all-with-cover = "scripts.shortcuts_export:all_formats_with_cover"
+
+# Init Shortcuts
+update-mdv = "scripts.shortcuts_init:run_update_metadata_values"
+init-bp = "scripts.shortcuts_init:run_init_book_project"
+
+# Translation Shortcuts
+# Generic CLI Translation Shortcut
+translate = "scripts.shortcuts_translate:translate"
+# Verbose Translation Shortcuts
+translate_manuscript_to_german = "scripts.shortcuts_translate:translate_manuscript_to_german"
+translate_manuscript_from_german_to_english = "scripts.shortcuts_translate:translate_manuscript_from_german_to_english"
+translate_manuscript_from_english_to_spanish = "scripts.shortcuts_translate:translate_manuscript_from_english_to_spanish"
+translate_manuscript_from_german_to_spanish = "scripts.shortcuts_translate:translate_manuscript_from_german_to_spanish"
+# Short Translation Aliases
+translate-de-es = "scripts.shortcuts_translate:translate_manuscript_from_german_to_spanish"
+translate-en-es = "scripts.shortcuts_translate:translate_manuscript_from_english_to_spanish"
+translate-en-de = "scripts.shortcuts_translate:translate_manuscript_to_german"
+translate-de-en = "scripts.shortcuts_translate:translate_manuscript_from_german_to_english"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
