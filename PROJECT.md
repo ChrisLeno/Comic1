@@ -1,6 +1,9 @@
 **ChatGPT:**
 
-Das ist ein großartiges Projekt! Ein Comicbuch mit dem Sohn deiner Nichte zu schreiben, kann nicht nur Spaß machen, sondern auch eine kreative Lernerfahrung sein. Dein vorhandenes Repository `write-book-template` ist ein guter Startpunkt. Hier ist eine empfohlene **Schritt-für-Schritt-Vorgehensweise**, wie du damit effizient arbeiten kannst – angepasst auf ein Comicbuch-Projekt:
+Das ist ein großartiges Projekt! Ein Comicbuch mit dem Sohn deiner Nichte zu schreiben, kann nicht nur Spaß machen,
+sondern auch eine kreative Lernerfahrung sein. Dein vorhandenes Repository `write-book-template` ist ein guter
+Startpunkt. Hier ist eine empfohlene **Schritt-für-Schritt-Vorgehensweise**, wie du damit effizient arbeiten kannst –
+angepasst auf ein Comicbuch-Projekt:
 
 * * *
 
@@ -9,18 +12,15 @@ Das ist ein großartiges Projekt! Ein Comicbuch mit dem Sohn deiner Nichte zu sc
 
 Besprecht gemeinsam:
 
-* **Zielgruppe** (z. B. Kinder, Jugendliche)
+* **Zielgruppe** : 8 - 12
     
-* **Sprache** (Deutsch oder Englisch)
-    
-* **Tonfall** (witzig, spannend, lehrreich)
-    
-* **Genre** (z. B. Superheld, Abenteuer, Sci-Fi)
-    
-* **Buchlänge** (z. B. 20–40 Seiten)
-    
+* **Sprache**: Deutsch
 
-Erstelle eine Datei `PROJECT.md` mit dieser Übersicht im Repository.
+* **Tonfall** witzig und spannend
+
+* **Genre** (z. B. Superheld, Abenteuer, Sci-Fi)
+
+* **Buchlänge** 30 ca. Seiten
 
 * * *
 
@@ -30,11 +30,10 @@ Erstelle eine Datei `PROJECT.md` mit dieser Übersicht im Repository.
 Gemeinsam brainstormen:
 
 * Hauptfigur(en) mit Namen, Eigenschaften, Superkräften
-    
+
 * Antagonist(en) und Nebenfiguren
-    
+
 * Grundhandlung (Anfang, Konflikt, Lösung)
-    
 
 Tipp: Verwende im `manuscript/`-Ordner eine Datei wie `story-outline.md`, um eine grobe Gliederung zu erstellen.
 
@@ -49,22 +48,24 @@ Empfohlene Struktur:
 
 ```markdown
 # Seite 1
+
 - Panel 1: ...
 - Panel 2: ...
-...
+  ...
 
 # Seite 2
+
 ...
 ```
 
-Speichere dies z. B. unter `manuscript/storyboard.md`.
+Speichere dies z. B. unter `manuscript/storyboard.md`.
 
 * * *
 
 ✅ 4. **Sprechblasen und Dialoge schreiben**
 -------------------------------------------
 
-Nutze Markdown-Dateien pro Seite oder Szene, z. B.:
+Nutze Markdown-Dateien pro Seite oder Szene, z. B.:
 
 ```markdown
 # Seite 3
@@ -83,13 +84,12 @@ Luna: *"Keine Sorge, ich hab meinen Super-Fön dabei!"*
 
 **Optionen:**
 
-* Ihr zeichnet die Bilder selbst (z. B. auf Papier, dann scannen)
-    
-* Ihr verwendet digitale Tools (z. B. Krita, MediBang)
-    
+* Ihr zeichnet die Bilder selbst (z. B. auf Papier, dann scannen)
+
+* Ihr verwendet digitale Tools (z. B. Krita, MediBang)
+
 * Ihr nutzt **AI-Bildgeneratoren** wie DALL·E, DeepAI oder Stable Diffusion  
-    👉 Dafür kann ich euch Bild-Prompts schreiben
-    
+  👉 Dafür kann ich euch Bild-Prompts schreiben
 
 Speichere Bilder in einem Ordner `assets/illustrations`.
 
@@ -101,11 +101,10 @@ Speichere Bilder in einem Ordner `assets/illustrations`.
 Du kannst:
 
 * Panels + Bilder als Markdown-Dateien anlegen
-    
+
 * Mit `Pandoc` in PDF, EPUB oder HTML umwandeln
-    
+
 * Optional das Template aus `write-book-template` anpassen
-    
 
 Tipp: Halte eine klare Struktur bei:
 
@@ -130,11 +129,10 @@ write-book-template/
 Nutze GitHub wie ein gemeinsames Notizbuch:
 
 * Issues für Ideen, TODOs, Verbesserungen
-    
+
 * Branches, falls du mit mehreren arbeitest
-    
+
 * Commits mit klaren Nachrichten wie „Dialog Seite 3 ergänzt“
-    
 
 * * *
 
@@ -144,11 +142,10 @@ Nutze GitHub wie ein gemeinsames Notizbuch:
 Du kannst:
 
 * eine **Print-Version via KDP** oder epubli machen
-    
+
 * ein **kostenloses PDF zum Download** bereitstellen
-    
+
 * eine **digitale Comic-Webseite** daraus bauen
-    
 
 * * *
 
@@ -156,23 +153,25 @@ Du kannst:
 -----------------------------
 
 * Markdown-Template für Comicseiten
-    
+
 * Bildgenerierung mit AI
-    
+
 * Export-Skripten
-    
+
 * Veröffentlichungsstrategie
-    
 
 * * *
 
-Möchtest du, dass ich dir ein Comic-Template mit Beispielseiten und Panels in deinem Repository vorbereite? Oder ein Prompt für ein Cover-Bild?
+Möchtest du, dass ich dir ein Comic-Template mit Beispielseiten und Panels in deinem Repository vorbereite? Oder ein
+Prompt für ein Cover-Bild?
 
 * * *
 
 **ChatGPT:**
 
-Hier ist ein **Markdown-Template für Comicseiten**, das speziell auf Comics mit Panels, Sprechblasen und Bildplatzierung ausgelegt ist. Du kannst es direkt in deinem `write-book-template` Repository im Ordner `manuscript/` verwenden, z. B. als `comic-page-template.md`.
+Hier ist ein **Markdown-Template für Comicseiten**, das speziell auf Comics mit Panels, Sprechblasen und Bildplatzierung
+ausgelegt ist. Du kannst es direkt in deinem `write-book-template` Repository im Ordner `manuscript/` verwenden, z. B.
+als `comic-page-template.md`.
 
 * * *
 
@@ -285,13 +284,13 @@ Eine **Comicseite enthält typischerweise 3 bis 6 Bilder bzw. Panels**, abhängi
 
 ### 🔢 Durchschnittliche Panel-Anzahl pro Seite
 
-| Stil / Zielgruppe | Panels pro Seite | Beschreibung |
-| --- | --- | --- |
-| **Kindercomic** | 2–4 | Große Bilder, wenig Text, klare Szenen |
-| **Standard-Comic (Marvel, DC, etc.)** | 5–6 | Klassischer Rhythmus, guter Lesefluss |
-| **Actionreiche Szene** | 6–9 | Viele kleine Panels für Tempo und Dynamik |
-| **Cinematic / Manga-Stil** | 1–3 | Großflächige Panels, starke Emotionen |
-| **Splash Page (Ganzseitenbild)** | 1 | Vollseitige Illustration, meist für dramatische Szenen |
+| Stil / Zielgruppe                     | Panels pro Seite | Beschreibung                                           |
+|---------------------------------------|------------------|--------------------------------------------------------|
+| **Kindercomic**                       | 2–4              | Große Bilder, wenig Text, klare Szenen                 |
+| **Standard-Comic (Marvel, DC, etc.)** | 5–6              | Klassischer Rhythmus, guter Lesefluss                  |
+| **Actionreiche Szene**                | 6–9              | Viele kleine Panels für Tempo und Dynamik              |
+| **Cinematic / Manga-Stil**            | 1–3              | Großflächige Panels, starke Emotionen                  |
+| **Splash Page (Ganzseitenbild)**      | 1                | Vollseitige Illustration, meist für dramatische Szenen |
 
 * * *
 
@@ -300,13 +299,12 @@ Eine **Comicseite enthält typischerweise 3 bis 6 Bilder bzw. Panels**, abhängi
 Da du das Comicbuch **mit einem Kind** erstellst:
 
 * 🧒 **4 Panels pro Seite** ist ein guter Mittelwert
-    
+
     * Nicht zu überladen
-        
+
     * Gut für kindliche Aufmerksamkeitsspanne
-        
+
     * Ermöglicht Abwechslung: große Panels + kleine Actionpanels
-        
 
 * * *
 
@@ -334,7 +332,8 @@ Oder
 
 * * *
 
-Wenn du willst, kann ich dir auch ein paar Beispielseiten mit 4 Panels und dazu passenden Bildprompts generieren. Möchtest du das?
+Wenn du willst, kann ich dir auch ein paar Beispielseiten mit 4 Panels und dazu passenden Bildprompts generieren.
+Möchtest du das?
 
 * * *
 
@@ -523,13 +522,17 @@ Wenn du möchtest, kann ich dir die Dateien direkt als `.md` für dein GitHub-Re
 
 **You:**
 
-ich habe mir gedacht der Chris erstellt erstmal ein github account und erstellt ein repository von meinem repository template. Erstelle mir wie wir am besten und am effizientesten das Projekt über die Bühnen ziehen.
+ich habe mir gedacht der Chris erstellt erstmal ein github account und erstellt ein repository von meinem repository
+template. Erstelle mir wie wir am besten und am effizientesten das Projekt über die Bühnen ziehen.
 
 * * *
 
 **ChatGPT:**
 
-Perfekt, Asterios. Wenn Chris (der Sohn deiner Nichte) aktiv mitarbeiten soll, ist es eine hervorragende Idee, ihm einen GitHub-Account zu erstellen und ihn über ein eigenes Repository aus deinem Template starten zu lassen. So lernt er gleich professionelles Arbeiten, Versionskontrolle und kreative Zusammenarbeit kennen. Hier ist ein effizienter **Schritt-für-Schritt-Plan**, um euer gemeinsames Comicbuch-Projekt strukturiert umzusetzen:
+Perfekt, Asterios. Wenn Chris (der Sohn deiner Nichte) aktiv mitarbeiten soll, ist es eine hervorragende Idee, ihm einen
+GitHub-Account zu erstellen und ihn über ein eigenes Repository aus deinem Template starten zu lassen. So lernt er
+gleich professionelles Arbeiten, Versionskontrolle und kreative Zusammenarbeit kennen. Hier ist ein effizienter *
+*Schritt-für-Schritt-Plan**, um euer gemeinsames Comicbuch-Projekt strukturiert umzusetzen:
 
 * * *
 
@@ -539,23 +542,22 @@ Perfekt, Asterios. Wenn Chris (der Sohn deiner Nichte) aktiv mitarbeiten soll, i
 ### 🧩 **Phase 1: Setup & Vorbereitung**
 
 1. ✅ **Chris erstellt GitHub-Account**  
-    👉 [https://github.com/signup](https://github.com/signup)
-    
+   👉 [https://github.com/signup](https://github.com/signup)
+
 2. ✅ **Du gibst ihm dein Template-Repo**  
-    👉 [https://github.com/astrapi69/write-book-template](https://github.com/astrapi69/write-book-template)
-    
+   👉 [https://github.com/astrapi69/write-book-template](https://github.com/astrapi69/write-book-template)
+
 3. ✅ **Chris erstellt neues Repo daraus (per „Use this template“)**
-    
-    * Name z. B.: `comic-abenteuer-mit-max`
-        
+
+    * Name z. B.: `comic-abenteuer-mit-max`
+
     * Lizenz: MIT oder keine
-        
+
     * Sichtbarkeit: Public oder Private
-        
+
 4. ✅ **Du wirst als Kollaborateur hinzugefügt**
-    
+
     * Über: `Settings` > `Collaborators` > `Add collaborator`
-        
 
 * * *
 
@@ -564,96 +566,92 @@ Perfekt, Asterios. Wenn Chris (der Sohn deiner Nichte) aktiv mitarbeiten soll, i
 > In gemeinsamen Video-Calls oder Live-Sessions mit Kind-geeigneten Tools wie GitHub Desktop oder Visual Studio Code.
 
 1. **Story-Konzept erarbeiten (brainstorming.md)**
-    
+
     * Held, Gegner, Setting, Ziel
-        
-    * Z. B. „Max findet ein Portal in eine Welt aus Pudding.“
-        
+
+    * Z. B. „Max findet ein Portal in eine Welt aus Pudding.“
+
 2. **Storyboard aufbauen (manuscript/storyboard.md)**
-    
+
     * Seitenstruktur und Panels planen (wie oben gezeigt)
-        
+
     * Beispiel:
-        
+
         ```
         Seite 1:
           - Panel 1: Max wacht auf
           - Panel 2: Katze fliegt vorbei
         ```
-        
+
 3. **Comic-Seiten mit Templates anlegen**
-    
+
     * Kopiere `comic-page-4panel-grid.md`
-        
+
     * Füge Inhalte für jede Seite ein
-        
-    * Erstellt z. B. `manuscript/01-max-wacht-auf.md`, `02-portal.md`, ...
-        
+
+    * Erstellt z. B. `manuscript/01-max-wacht-auf.md`, `02-portal.md`, ...
+
 4. **Dialoge schreiben und Szenen beschreiben**
-    
+
     * Ein Kind kann die wörtlichen Dialoge sagen/diktieren
-        
+
     * Du tippst sie sauber ab und erklärst ggf. Markdown
-        
 
 * * *
 
 ### 🧠 **Phase 3: Bilder erstellen**
 
 1. **AI-Prompts gemeinsam erstellen (spielerisch!)**
-    
+
     * Du hilfst bei Prompt-Formulierung, Chris kann sagen was er sieht
-        
+
     * Beispiel: `"a brave boy with wild brown hair in pajamas stands before a magical portal of jelly"`
-        
+
 2. **Illustrationen generieren lassen**
-    
-    * z. B. mit: https://deepai.org/machine-learning-model/text2img  
-        oder lokal via Stable Diffusion
-        
+
+    * z. B. mit: https://deepai.org/machine-learning-model/text2img  
+      oder lokal via Stable Diffusion
+
 3. **Bilder abspeichern in:**
-    
+
     ```
     assets/illustrations/page-01.jpg
     assets/illustrations/page-02.jpg
     ```
-    
+
 4. **In Markdown einbinden mit `![]()`**
-    
 
 * * *
 
 ### ⚙️ **Phase 4: Buch generieren**
 
 1. ✅ **Export-Script anpassen (scripts/export_book.py)**  
-    Ausgabeformate: PDF, EPUB, HTML  
-    Chris kann die Ausgabedateien sehen und stolz sein Ergebnis anschauen
-    
+   Ausgabeformate: PDF, EPUB, HTML  
+   Chris kann die Ausgabedateien sehen und stolz sein Ergebnis anschauen
+
 2. ✅ **Markdown-Dateien mit Pandoc oder deinem Tool in Buch konvertieren**
-    
 
 * * *
 
 ### 🌍 **Phase 5: Veröffentlichung (optional)**
 
 1. **PDF kostenlos auf GitHub Pages bereitstellen**
-    
+
 2. **KDP oder epubli für gedruckte Version (wenn gewünscht)**
-    
+
 3. **Web-Comic erstellen mit einfach HTML (Bonusprojekt)**
-    
 
 * * *
 
 ### 👨‍👦 **Zusammenarbeit & Motivation**
 
-| Idee | Nutzen |
-| --- | --- |
-| „Chris führt ein Comic-Tagebuch“ (`log.md`) | Kreativität und Ausdruck fördern |
-| Issues für neue Ideen erstellen | Agile Lernmethoden |
-| Eigene Branches (z. B. `chris-dialoge`) | Versionskontrolle üben |
-| GitHub Pages aktivieren (kostenloses Comic-Webprojekt) | Online präsentieren & teilen |
-| Pull Requests nutzen („Papa, guck mal meine Änderung!“) | Feedbackkultur & Stolz fördern |
+| Idee                                                    | Nutzen                           |
+|---------------------------------------------------------|----------------------------------|
+| „Chris führt ein Comic-Tagebuch“ (`log.md`)             | Kreativität und Ausdruck fördern |
+| Issues für neue Ideen erstellen                         | Agile Lernmethoden               |
+| Eigene Branches (z. B. `chris-dialoge`)                 | Versionskontrolle üben           |
+| GitHub Pages aktivieren (kostenloses Comic-Webprojekt)  | Online präsentieren & teilen     |
+| Pull Requests nutzen („Papa, guck mal meine Änderung!“) | Feedbackkultur & Stolz fördern   |
 
 * * *
 
@@ -682,10 +680,9 @@ comic-abenteuer-mit-max/
 Wenn du möchtest, kann ich dir jetzt:
 
 * 📁 Einen fertigen Branch `comic-template` erstellen mit vorbereiteter Struktur
-    
+
 * 🖼️ Beispielseite mit Prompt und Bild als Start
-    
+
 * 🔄 Ein einfaches Bash-/Python-Skript, das alle `.md`-Seiten zu einem Comic-PDF zusammenfügt
-    
 
 Sag einfach Bescheid, wie du weiter machen willst.

@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "style": "comic book, colorful, hand-drawn style, simple background"
+  },
+  "prompts": [
+    {
+      "filename": "page_01_panel_01.png",
+      "text": "A family drives in a funny vacation car with luggage on top, waving and shouting 'Yay! Ohio!', cartoon comic style"
+    },
+    {
+      "filename": "page_01_panel_02.png",
+      "text": "A hotel reception with a glowing desk bell, family waiting with luggage, receptionist hidden, comic style"
+    },
+    {
+      "filename": "page_02_panel_01.png",
+      "text": "Close-up of a hand ringing a hotel desk bell with a loud 'Ding!', cartoon style, simple drawing"
+    },
+    {
+      "filename": "page_02_panel_02.png",
+      "text": "Dark scene: the hotel light goes out, people look surprised, comic page layout"
+    },
+    {
+      "filename": "page_03_panel_01.png",
+      "text": "People with scared eyes in the dark, speech bubbles: 'Warum ging das Licht aus?' and 'Ich sehe nichts!'"
+    },
+    {
+      "filename": "page_03_panel_02.png",
+      "text": "A creepy voice in the dark: 'Geht weg von meinem Hotel oder ihr stirbt!!!', background black, big text: 'Dein Albtraum!'"
+    },
+    {
+      "filename": "page_04_panel_01.png",
+      "text": "Family drives away fast in the car, someone chases them on the road, comic style, dramatic"
+    },
+    {
+      "filename": "page_04_panel_02.png",
+      "text": "Text on ocean waves: 'Sie entschieden sich nach HAWAI…', big 'To be continued…', tropical setting hinted"
+    }
+  ]
+}

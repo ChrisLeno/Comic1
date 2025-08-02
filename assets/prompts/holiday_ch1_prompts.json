@@ -1,0 +1,46 @@
+{
+  "style": "comic book, colorful, hand-drawn style, simple background",
+  "chapters": [
+    {
+      "title": "Chapter 1 – Arrival in Ohio",
+      "prompts": [
+        {
+          "character": ["Chris", "Das Auto"],
+          "prompt": "driving toward a city sign that says 'Welcome to Ohio', excited faces",
+          "filename": "holiday_ch1_01_arrival.png"
+        },
+        {
+          "character": ["Mama", "Papa"],
+          "prompt": "waiting at a hotel reception with bags, looking confused",
+          "filename": "holiday_ch1_02_hotel_arrival.png"
+        },
+        {
+          "character": "Chris",
+          "prompt": "rings the hotel bell with a loud 'Ding!', zoom on hand and bell",
+          "filename": "holiday_ch1_03_ding.png"
+        },
+        {
+  "character": "Hotelbesitzer",
+  "prompt": "lurking behind the hotel desk, eyes glowing",
+  "filename": "holiday_ch1_04_owner.png"
+}
+,
+        {
+          "character": "Albtraum-Stimme",
+          "prompt": "dark room with text in air: 'Geht weg oder ihr stirbt! DEIN ALBTRAUM!'",
+          "filename": "holiday_ch1_05_nightmare_voice.png"
+        },
+        {
+          "character": ["Chris", "Mama", "Papa", "Das Auto"],
+          "prompt": "racing away from the hotel in panic, screaming, night scene",
+          "filename": "holiday_ch1_06_escape.png"
+        },
+        {
+          "character": "Chris",
+          "prompt": "standing in front of a map with the word 'HAWAII' and smiling",
+          "filename": "holiday_ch1_07_hawaii.png"
+        }
+      ]
+    }
+  ]
+}
