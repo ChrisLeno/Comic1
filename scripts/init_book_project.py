@@ -164,8 +164,6 @@ def main():
     ]
 
     files = [
-        "manuscript/chapters/01-chapter.md",
-        "manuscript/chapters/02-chapter.md",
         "manuscript/front-matter/book-title.md",
         "manuscript/front-matter/foreword.md",
         "manuscript/front-matter/preface.md",
